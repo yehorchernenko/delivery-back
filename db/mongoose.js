@@ -1,7 +1,8 @@
 let mongoose = require('mongoose');
+let config = require('../config');
 
 mongoose.Promise = global.Promise;
-mongoose.connect('mongodb://localhost:27017/delivery',  {useNewUrlParser: true})
+mongoose.connect(config.dbURL,  {useNewUrlParser: true})
     .then(() =>  console.log('Database connected successfully'))
     .catch((err) => console.error(err));
 module.exports = mongoose;
