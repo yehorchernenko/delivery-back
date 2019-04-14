@@ -1,15 +1,15 @@
-var mongoose = require('./db/mongoose');
-var createError = require('http-errors');
-var express = require('express');
-var path = require('path');
-var cookieParser = require('cookie-parser');
-var logger = require('morgan');
+const mongoose = require('./db/mongoose');
+const createError = require('http-errors');
+const express = require('express');
+const path = require('path');
+const cookieParser = require('cookie-parser');
+const logger = require('morgan');
 
-var indexRouter = require('./routes/index');
-var userController = require('./controllers/UserController');
-var authController = require('./controllers/AuthController');
+const indexRouter = require('./routes/index');
+const userController = require('./controllers/UserController');
+const authController = require('./controllers/AuthController');
 
-var app = express();
+const app = express();
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
@@ -26,12 +26,12 @@ app.use('/api/users', userController);
 app.use('/api/auth', authController);
 
 // catch 404 and forward to error handler
-app.use(function(req, res, next) {
+app.use((req, res, next) => {
   next(createError(404));
 });
 
 // error handler
-app.use(function(err, req, res, next) {
+app.use((err, req, res, next) => {
   // set locals, only providing error in development
   res.locals.message = err.message;
   res.locals.error = req.app.get('env') === 'development' ? err : {};
