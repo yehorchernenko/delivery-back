@@ -15,14 +15,20 @@ router.post('/register', (req, res) => {
 
     User.create({
             email : req.body.email,
-            password : hashedPassword
+            password : hashedPassword,
+            phone: req.body.phone,
+            fullName: req.body.fullName
         }, (err, user) => {
-            if (err) return res.status(500).send("There was a problem registering the user.")
-
+            if (err) {
+                res.status(500).send({
+                    error: 'There was a problem registering the user.'
+                })
+            } else {
             const token = jwt.sign({ id: user._id }, config.secret, {
                 expiresIn: config.tokenExpiresIn
             });
-            res.status(200).send({ auth: true, token: token });
+            res.status(200).send({data: { auth: true, token: token }});
+        }
         });
 });
 
