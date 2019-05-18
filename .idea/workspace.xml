@@ -1,15 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eb00e990-89ac-4d74-9e70-79ee30b040ad" name="Default" comment="Added more user fields, mark email as unique">
+    <list default="true" id="eb00e990-89ac-4d74-9e70-79ee30b040ad" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
-      <change beforePath="$PROJECT_DIR$/bin/www" afterPath="$PROJECT_DIR$/bin/www" />
       <change beforePath="$PROJECT_DIR$/controllers/AuthController.js" afterPath="$PROJECT_DIR$/controllers/AuthController.js" />
-      <change beforePath="$PROJECT_DIR$/db/mongoose.js" afterPath="$PROJECT_DIR$/db/mongoose.js" />
       <change beforePath="$PROJECT_DIR$/entities/User.js" afterPath="$PROJECT_DIR$/entities/User.js" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" afterPath="$PROJECT_DIR$/package-lock.json" />
-      <change beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -51,15 +46,9 @@
       <file leaf-file-name="User.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/entities/User.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-199">
-              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-              <folding>
-                <marker date="1558160489927" expanded="true" signature="79:626" ph="{...}" />
-                <marker date="1558160489927" expanded="true" signature="92:318" ph="{&quot;type&quot;: String...}" />
-                <marker date="1558160489927" expanded="true" signature="334:457" ph="{&quot;type&quot;: String...}" />
-                <marker date="1558160489927" expanded="true" signature="470:537" ph="{&quot;type&quot;: String...}" />
-                <marker date="1558160489927" expanded="true" signature="553:624" ph="{&quot;type&quot;: String...}" />
-              </folding>
+            <state relative-caret-position="218">
+              <caret line="12" column="23" lean-forward="true" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -81,49 +70,22 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="532">
               <caret line="28" column="32" lean-forward="false" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
-              <folding>
-                <marker date="1555228567772" expanded="true" signature="209:219" ph="{...}" />
-                <marker date="1555228567772" expanded="true" signature="227:315" ph="{&quot;email&quot;: req.body.email...}" />
-                <marker date="1555228567772" expanded="true" signature="332:445" ph="{...}" />
-                <marker date="1555228567772" expanded="true" signature="575:585" ph="{...}" />
-                <marker date="1555228567772" expanded="true" signature="619:707" ph="{...}" />
-                <marker date="1555228567772" expanded="true" signature="832:842" ph="{...}" />
-                <marker date="1555228567772" expanded="true" signature="890:977" ph="{...}" />
-                <marker date="1555228567772" expanded="true" signature="1166:1176" ph="{...}" />
-                <marker date="1555228567772" expanded="true" signature="1232:1320" ph="{...}" />
-                <marker date="1555228567772" expanded="true" signature="1478:1488" ph="{...}" />
-                <marker date="1555228567772" expanded="true" signature="1568:1656" ph="{...}" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AuthController.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="AuthController.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/controllers/AuthController.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="101">
-              <caret line="56" column="11" lean-forward="true" selection-start-line="56" selection-start-column="11" selection-end-line="56" selection-end-column="11" />
-              <folding>
-                <marker date="1558160777109" expanded="true" signature="455:522" ph="{...}" />
-                <marker date="1558160777109" expanded="true" signature="541:702" ph="{&quot;email&quot;: req.body.email...}" />
-                <marker date="1558160777109" expanded="true" signature="719:1027" ph="{...}" />
-                <marker date="1558160777109" expanded="true" signature="742:886" ph="{...}" />
-                <marker date="1558160777109" expanded="true" signature="781:871" ph="{&quot;error&quot;: 'There was a problem registering the user.'...}" />
-                <marker date="1558160777109" expanded="true" signature="892:1027" ph="{...}" />
-                <marker date="1558160777109" expanded="true" signature="962:1026" ph="{&quot;expiresIn&quot;: config.tokenExpiresIn...}" />
-                <marker date="1558160777109" expanded="true" signature="1182:1192" ph="{...}" />
-                <marker date="1558160777109" expanded="true" signature="1235:1432" ph="{...}" />
-                <marker date="1558160777109" expanded="true" signature="1477:1486" ph="{...}" />
-                <marker date="1558160777109" expanded="true" signature="1552:1562" ph="{...}" />
-                <marker date="1558160777109" expanded="true" signature="1638:1708" ph="{...}" />
-                <marker date="1558160777109" expanded="true" signature="2016:2072" ph="{&quot;expiresIn&quot;: config.tokenExpiresIn...}" />
-                <marker date="1558160777109" expanded="true" signature="2184:2193" ph="{...}" />
-              </folding>
+            <state relative-caret-position="318">
+              <caret line="40" column="36" lean-forward="false" selection-start-line="40" selection-start-column="36" selection-end-line="40" selection-end-column="36" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="www" pinned="false" current-in-tab="true">
+      <file leaf-file-name="www" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bin/www">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="209">
@@ -138,10 +100,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="266">
               <caret line="14" column="29" lean-forward="false" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
-              <folding>
-                <marker date="1555228040245" expanded="true" signature="112:494" ph="{...}" />
-                <marker date="1555228040245" expanded="true" signature="316:425" ph="{...}" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -265,10 +224,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="171">
               <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-              <folding>
-                <marker date="1555145292352" expanded="true" signature="66:86" ph="/*...*/" />
-                <marker date="1555145292352" expanded="true" signature="128:176" ph="{...}" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -294,8 +250,8 @@
         <option value="$PROJECT_DIR$/controllers/UserController.js" />
         <option value="$PROJECT_DIR$/bin/www" />
         <option value="$PROJECT_DIR$/app.js" />
-        <option value="$PROJECT_DIR$/entities/User.js" />
         <option value="$PROJECT_DIR$/db/mongoose.js" />
+        <option value="$PROJECT_DIR$/entities/User.js" />
         <option value="$PROJECT_DIR$/controllers/AuthController.js" />
       </list>
     </option>
@@ -317,7 +273,7 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1380" />
     <option name="height" value="877" />
@@ -424,26 +380,33 @@
       <workItem from="1557058085849" duration="478000" />
       <workItem from="1557335215125" duration="379000" />
       <workItem from="1557576050613" duration="3573000" />
-      <workItem from="1558155480692" duration="4330000" />
+      <workItem from="1558155480692" duration="8489000" />
     </task>
+    <task id="LOCAL-00001" summary="Added more user fields, mark email as unique">
+      <created>1558160944064</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1558160944064</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19746000" />
+    <option name="totallyTimeSpent" value="23905000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1380" height="877" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1380" height="877" extended-state="0" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32898173" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.46605745" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35117492" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32767624" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24944812" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24944812" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -588,10 +551,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
           <caret line="1" column="24" lean-forward="false" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
-          <folding>
-            <marker date="1555145292352" expanded="true" signature="66:86" ph="/*...*/" />
-            <marker date="1555145292352" expanded="true" signature="128:176" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -627,13 +587,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding>
-            <marker date="1558160489927" expanded="true" signature="79:626" ph="{...}" />
-            <marker date="1558160489927" expanded="true" signature="92:318" ph="{&quot;type&quot;: String...}" />
-            <marker date="1558160489927" expanded="true" signature="334:457" ph="{&quot;type&quot;: String...}" />
-            <marker date="1558160489927" expanded="true" signature="470:537" ph="{&quot;type&quot;: String...}" />
-            <marker date="1558160489927" expanded="true" signature="553:624" ph="{&quot;type&quot;: String...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -641,19 +595,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="779">
           <caret line="41" column="49" lean-forward="false" selection-start-line="41" selection-start-column="49" selection-end-line="41" selection-end-column="49" />
-          <folding>
-            <marker date="1555228567772" expanded="true" signature="209:219" ph="{...}" />
-            <marker date="1555228567772" expanded="true" signature="227:315" ph="{&quot;email&quot;: req.body.email...}" />
-            <marker date="1555228567772" expanded="true" signature="332:445" ph="{...}" />
-            <marker date="1555228567772" expanded="true" signature="575:585" ph="{...}" />
-            <marker date="1555228567772" expanded="true" signature="619:707" ph="{...}" />
-            <marker date="1555228567772" expanded="true" signature="832:842" ph="{...}" />
-            <marker date="1555228567772" expanded="true" signature="890:977" ph="{...}" />
-            <marker date="1555228567772" expanded="true" signature="1166:1176" ph="{...}" />
-            <marker date="1555228567772" expanded="true" signature="1232:1320" ph="{...}" />
-            <marker date="1555228567772" expanded="true" signature="1478:1488" ph="{...}" />
-            <marker date="1555228567772" expanded="true" signature="1568:1656" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -661,22 +603,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1007">
           <caret line="53" column="3" lean-forward="true" selection-start-line="53" selection-start-column="3" selection-end-line="53" selection-end-column="3" />
-          <folding>
-            <marker date="1558160777109" expanded="true" signature="455:522" ph="{...}" />
-            <marker date="1558160777109" expanded="true" signature="541:702" ph="{&quot;email&quot;: req.body.email...}" />
-            <marker date="1558160777109" expanded="true" signature="719:1027" ph="{...}" />
-            <marker date="1558160777109" expanded="true" signature="742:886" ph="{...}" />
-            <marker date="1558160777109" expanded="true" signature="781:871" ph="{&quot;error&quot;: 'There was a problem registering the user.'...}" />
-            <marker date="1558160777109" expanded="true" signature="892:1027" ph="{...}" />
-            <marker date="1558160777109" expanded="true" signature="962:1026" ph="{&quot;expiresIn&quot;: config.tokenExpiresIn...}" />
-            <marker date="1558160777109" expanded="true" signature="1182:1192" ph="{...}" />
-            <marker date="1558160777109" expanded="true" signature="1235:1432" ph="{...}" />
-            <marker date="1558160777109" expanded="true" signature="1477:1486" ph="{...}" />
-            <marker date="1558160777109" expanded="true" signature="1552:1562" ph="{...}" />
-            <marker date="1558160777109" expanded="true" signature="1638:1708" ph="{...}" />
-            <marker date="1558160777109" expanded="true" signature="2016:2072" ph="{&quot;expiresIn&quot;: config.tokenExpiresIn...}" />
-            <marker date="1558160777109" expanded="true" signature="2184:2193" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -684,10 +611,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
           <caret line="14" column="4" lean-forward="false" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
-          <folding>
-            <marker date="1555228040245" expanded="true" signature="112:494" ph="{...}" />
-            <marker date="1555228040245" expanded="true" signature="316:425" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -807,10 +731,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
           <caret line="1" column="24" lean-forward="false" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
-          <folding>
-            <marker date="1555145292352" expanded="true" signature="66:86" ph="/*...*/" />
-            <marker date="1555145292352" expanded="true" signature="128:176" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -978,22 +899,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="386">
           <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-          <folding>
-            <marker date="1558160777109" expanded="true" signature="455:522" ph="{...}" />
-            <marker date="1558160777109" expanded="true" signature="541:702" ph="{&quot;email&quot;: req.body.email...}" />
-            <marker date="1558160777109" expanded="true" signature="719:1027" ph="{...}" />
-            <marker date="1558160777109" expanded="true" signature="742:886" ph="{...}" />
-            <marker date="1558160777109" expanded="true" signature="781:871" ph="{&quot;error&quot;: 'There was a problem registering the user.'...}" />
-            <marker date="1558160777109" expanded="true" signature="892:1027" ph="{...}" />
-            <marker date="1558160777109" expanded="true" signature="962:1026" ph="{&quot;expiresIn&quot;: config.tokenExpiresIn...}" />
-            <marker date="1558160777109" expanded="true" signature="1182:1192" ph="{...}" />
-            <marker date="1558160777109" expanded="true" signature="1235:1432" ph="{...}" />
-            <marker date="1558160777109" expanded="true" signature="1477:1486" ph="{...}" />
-            <marker date="1558160777109" expanded="true" signature="1552:1562" ph="{...}" />
-            <marker date="1558160777109" expanded="true" signature="1638:1708" ph="{...}" />
-            <marker date="1558160777109" expanded="true" signature="2016:2072" ph="{&quot;expiresIn&quot;: config.tokenExpiresIn...}" />
-            <marker date="1558160777109" expanded="true" signature="2184:2193" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1002,10 +908,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
           <caret line="1" column="24" lean-forward="false" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
-          <folding>
-            <marker date="1555145292352" expanded="true" signature="66:86" ph="/*...*/" />
-            <marker date="1555145292352" expanded="true" signature="128:176" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1013,19 +916,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="9" column="33" lean-forward="false" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
-          <folding>
-            <marker date="1555228567772" expanded="true" signature="209:219" ph="{...}" />
-            <marker date="1555228567772" expanded="true" signature="227:315" ph="{&quot;email&quot;: req.body.email...}" />
-            <marker date="1555228567772" expanded="true" signature="332:445" ph="{...}" />
-            <marker date="1555228567772" expanded="true" signature="575:585" ph="{...}" />
-            <marker date="1555228567772" expanded="true" signature="619:707" ph="{...}" />
-            <marker date="1555228567772" expanded="true" signature="832:842" ph="{...}" />
-            <marker date="1555228567772" expanded="true" signature="890:977" ph="{...}" />
-            <marker date="1555228567772" expanded="true" signature="1166:1176" ph="{...}" />
-            <marker date="1555228567772" expanded="true" signature="1232:1320" ph="{...}" />
-            <marker date="1555228567772" expanded="true" signature="1478:1488" ph="{...}" />
-            <marker date="1555228567772" expanded="true" signature="1568:1656" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1033,13 +924,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
           <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding>
-            <marker date="1558160489927" expanded="true" signature="79:626" ph="{...}" />
-            <marker date="1558160489927" expanded="true" signature="92:318" ph="{&quot;type&quot;: String...}" />
-            <marker date="1558160489927" expanded="true" signature="334:457" ph="{&quot;type&quot;: String...}" />
-            <marker date="1558160489927" expanded="true" signature="470:537" ph="{&quot;type&quot;: String...}" />
-            <marker date="1558160489927" expanded="true" signature="553:624" ph="{&quot;type&quot;: String...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1212,22 +1097,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="386">
           <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-          <folding>
-            <marker date="1558160777109" expanded="true" signature="455:522" ph="{...}" />
-            <marker date="1558160777109" expanded="true" signature="541:702" ph="{&quot;email&quot;: req.body.email...}" />
-            <marker date="1558160777109" expanded="true" signature="719:1027" ph="{...}" />
-            <marker date="1558160777109" expanded="true" signature="742:886" ph="{...}" />
-            <marker date="1558160777109" expanded="true" signature="781:871" ph="{&quot;error&quot;: 'There was a problem registering the user.'...}" />
-            <marker date="1558160777109" expanded="true" signature="892:1027" ph="{...}" />
-            <marker date="1558160777109" expanded="true" signature="962:1026" ph="{&quot;expiresIn&quot;: config.tokenExpiresIn...}" />
-            <marker date="1558160777109" expanded="true" signature="1182:1192" ph="{...}" />
-            <marker date="1558160777109" expanded="true" signature="1235:1432" ph="{...}" />
-            <marker date="1558160777109" expanded="true" signature="1477:1486" ph="{...}" />
-            <marker date="1558160777109" expanded="true" signature="1552:1562" ph="{...}" />
-            <marker date="1558160777109" expanded="true" signature="1638:1708" ph="{...}" />
-            <marker date="1558160777109" expanded="true" signature="2016:2072" ph="{&quot;expiresIn&quot;: config.tokenExpiresIn...}" />
-            <marker date="1558160777109" expanded="true" signature="2184:2193" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1236,10 +1106,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
           <caret line="1" column="24" lean-forward="false" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
-          <folding>
-            <marker date="1555145292352" expanded="true" signature="66:86" ph="/*...*/" />
-            <marker date="1555145292352" expanded="true" signature="128:176" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1247,19 +1114,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="9" column="33" lean-forward="false" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
-          <folding>
-            <marker date="1555228567772" expanded="true" signature="209:219" ph="{...}" />
-            <marker date="1555228567772" expanded="true" signature="227:315" ph="{&quot;email&quot;: req.body.email...}" />
-            <marker date="1555228567772" expanded="true" signature="332:445" ph="{...}" />
-            <marker date="1555228567772" expanded="true" signature="575:585" ph="{...}" />
-            <marker date="1555228567772" expanded="true" signature="619:707" ph="{...}" />
-            <marker date="1555228567772" expanded="true" signature="832:842" ph="{...}" />
-            <marker date="1555228567772" expanded="true" signature="890:977" ph="{...}" />
-            <marker date="1555228567772" expanded="true" signature="1166:1176" ph="{...}" />
-            <marker date="1555228567772" expanded="true" signature="1232:1320" ph="{...}" />
-            <marker date="1555228567772" expanded="true" signature="1478:1488" ph="{...}" />
-            <marker date="1555228567772" expanded="true" signature="1568:1656" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1267,13 +1122,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
           <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding>
-            <marker date="1558160489927" expanded="true" signature="79:626" ph="{...}" />
-            <marker date="1558160489927" expanded="true" signature="92:318" ph="{&quot;type&quot;: String...}" />
-            <marker date="1558160489927" expanded="true" signature="334:457" ph="{&quot;type&quot;: String...}" />
-            <marker date="1558160489927" expanded="true" signature="470:537" ph="{&quot;type&quot;: String...}" />
-            <marker date="1558160489927" expanded="true" signature="553:624" ph="{&quot;type&quot;: String...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1432,48 +1281,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/middleware/AuthMiddleware.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="29" lean-forward="false" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
-          <folding>
-            <marker date="1555228040245" expanded="true" signature="112:494" ph="{...}" />
-            <marker date="1555228040245" expanded="true" signature="316:425" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/UserController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="28" column="32" lean-forward="false" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
-          <folding>
-            <marker date="1555228567772" expanded="true" signature="209:219" ph="{...}" />
-            <marker date="1555228567772" expanded="true" signature="227:315" ph="{&quot;email&quot;: req.body.email...}" />
-            <marker date="1555228567772" expanded="true" signature="332:445" ph="{...}" />
-            <marker date="1555228567772" expanded="true" signature="575:585" ph="{...}" />
-            <marker date="1555228567772" expanded="true" signature="619:707" ph="{...}" />
-            <marker date="1555228567772" expanded="true" signature="832:842" ph="{...}" />
-            <marker date="1555228567772" expanded="true" signature="890:977" ph="{...}" />
-            <marker date="1555228567772" expanded="true" signature="1166:1176" ph="{...}" />
-            <marker date="1555228567772" expanded="true" signature="1232:1320" ph="{...}" />
-            <marker date="1555228567772" expanded="true" signature="1478:1488" ph="{...}" />
-            <marker date="1555228567772" expanded="true" signature="1568:1656" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <marker date="1555145292352" expanded="true" signature="66:86" ph="/*...*/" />
-            <marker date="1555145292352" expanded="true" signature="128:176" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="149">
@@ -1495,47 +1302,50 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/bin/www">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="16" lean-forward="false" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/UserController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="28" column="32" lean-forward="false" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/middleware/AuthMiddleware.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="29" lean-forward="false" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/entities/User.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-199">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding>
-            <marker date="1558160489927" expanded="true" signature="79:626" ph="{...}" />
-            <marker date="1558160489927" expanded="true" signature="92:318" ph="{&quot;type&quot;: String...}" />
-            <marker date="1558160489927" expanded="true" signature="334:457" ph="{&quot;type&quot;: String...}" />
-            <marker date="1558160489927" expanded="true" signature="470:537" ph="{&quot;type&quot;: String...}" />
-            <marker date="1558160489927" expanded="true" signature="553:624" ph="{&quot;type&quot;: String...}" />
-          </folding>
+        <state relative-caret-position="218">
+          <caret line="12" column="23" lean-forward="true" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/controllers/AuthController.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
-          <caret line="56" column="11" lean-forward="true" selection-start-line="56" selection-start-column="11" selection-end-line="56" selection-end-column="11" />
-          <folding>
-            <marker date="1558160777109" expanded="true" signature="455:522" ph="{...}" />
-            <marker date="1558160777109" expanded="true" signature="541:702" ph="{&quot;email&quot;: req.body.email...}" />
-            <marker date="1558160777109" expanded="true" signature="719:1027" ph="{...}" />
-            <marker date="1558160777109" expanded="true" signature="742:886" ph="{...}" />
-            <marker date="1558160777109" expanded="true" signature="781:871" ph="{&quot;error&quot;: 'There was a problem registering the user.'...}" />
-            <marker date="1558160777109" expanded="true" signature="892:1027" ph="{...}" />
-            <marker date="1558160777109" expanded="true" signature="962:1026" ph="{&quot;expiresIn&quot;: config.tokenExpiresIn...}" />
-            <marker date="1558160777109" expanded="true" signature="1182:1192" ph="{...}" />
-            <marker date="1558160777109" expanded="true" signature="1235:1432" ph="{...}" />
-            <marker date="1558160777109" expanded="true" signature="1477:1486" ph="{...}" />
-            <marker date="1558160777109" expanded="true" signature="1552:1562" ph="{...}" />
-            <marker date="1558160777109" expanded="true" signature="1638:1708" ph="{...}" />
-            <marker date="1558160777109" expanded="true" signature="2016:2072" ph="{&quot;expiresIn&quot;: config.tokenExpiresIn...}" />
-            <marker date="1558160777109" expanded="true" signature="2184:2193" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bin/www">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="16" lean-forward="false" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+        <state relative-caret-position="318">
+          <caret line="40" column="36" lean-forward="false" selection-start-line="40" selection-start-column="36" selection-end-line="40" selection-end-column="36" />
           <folding />
         </state>
       </provider>

@@ -20,7 +20,7 @@ router.post('/register', (req, res) => {
             fullName: req.body.fullName
         }, (err, user) => {
             if (err) {
-                res.status(500).send({
+                res.status(400).send({
                     error: 'There was a problem registering the user.'
                 })
             } else {
@@ -30,6 +30,39 @@ router.post('/register', (req, res) => {
             res.status(200).send({data: { auth: true, token: token }});
         }
         });
+});
+
+router.post('/register/admin',AuthMiddleware, (req, res) => {
+
+    User.findById(req.userId, function (err, user) {
+        if (err) return res.status(500).send("There was a problem finding the user.");
+        if (!user) return res.status(404).send("No user found.");
+
+        if (user.role === 'ADMIN') {
+            const hashedPassword = bcrypt.hashSync(req.body.password, 8);
+
+            User.create({
+                email : req.body.email,
+                password : hashedPassword,
+                phone: req.body.phone,
+                fullName: req.body.fullName,
+                role: 'ADMIN'
+            }, (err, user) => {
+                if (err) {
+                    res.status(400).send({
+                        error: 'There was a problem registering the user.'
+                    })
+                } else {
+                    const token = jwt.sign({ id: user._id }, config.secret, {
+                        expiresIn: config.tokenExpiresIn
+                    });
+                    res.status(200).send({data: { auth: true, token: token }});
+                }
+            });
+        } else {
+            if (!user) return res.status(400).send("Only admins can create new admin");
+        }
+    });
 });
 
 router.get('/me', AuthMiddleware, (req, res, next) => {
