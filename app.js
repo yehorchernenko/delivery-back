@@ -11,6 +11,7 @@ const userController = require('./controllers/UserController');
 const authController = require('./controllers/AuthController');
 const citiesController = require('./controllers/CitiesController');
 const courierController = require('./controllers/CourierController');
+const orderController = require('./controllers/OrderController');
 
 const app = express();
 
@@ -30,6 +31,7 @@ app.use('/api/users', userController);
 app.use('/api/auth', authController);
 app.use('/api/cities', citiesController);
 app.use('/api/courier', courierController);
+app.use('/api/order', orderController);
 
 // catch 404 and forward to error handler
 app.use((req, res, next) => {

@@ -26,7 +26,7 @@ const OrderSchema = new mongoose.Schema({
         address: { type: String }
     },
     info: {
-        date: { type: Date },
+        date: { type: Date, default: Date() },
         price: { type: Number },
     }
 });
