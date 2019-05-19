@@ -10,6 +10,7 @@ const indexRouter = require('./routes/index');
 const userController = require('./controllers/UserController');
 const authController = require('./controllers/AuthController');
 const citiesController = require('./controllers/CitiesController');
+const courierController = require('./controllers/CourierController');
 
 const app = express();
 
@@ -28,6 +29,7 @@ app.use('/', indexRouter);
 app.use('/api/users', userController);
 app.use('/api/auth', authController);
 app.use('/api/cities', citiesController);
+app.use('/api/courier', courierController);
 
 // catch 404 and forward to error handler
 app.use((req, res, next) => {

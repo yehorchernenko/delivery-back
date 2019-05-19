@@ -8,7 +8,7 @@ const connection = mysql.createConnection({
     database : 'cities'
 });
 
-connection.connect();
+//connection.connect();
 
 router.get('/all', (req, res) => {
     connection.query('SELECT * from _cities', function (error, results, fields) {

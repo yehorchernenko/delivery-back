@@ -10,6 +10,7 @@ const CourierSchema = new mongoose.Schema({
     queue: [{
             type: mongoose.Schema.Types.ObjectId,
             ref: 'Order',
+            default: []
     }]
 
 });

@@ -60,7 +60,7 @@ router.post('/register/admin',AuthMiddleware, (req, res) => {
                 }
             });
         } else {
-            if (!user) return res.status(400).send("Only admins can create new admin");
+            return res.status(400).send("Only admins can create new admin");
         }
     });
 });
