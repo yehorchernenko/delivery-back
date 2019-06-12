@@ -17,7 +17,7 @@ router.post('/add', AuthMiddleware, (req, res) => {
                 res.status(200).send(courier)
             });
         } else {
-            if (!user) return res.status(400).send("Only admins can create new admin");
+            return res.status(400).send("Only admins can create new admin");
         }
     });
 });
