@@ -34,7 +34,7 @@ router.get('/my', AuthMiddleware, (req, res) => {
         if (err1) return res.status(500).send("There was a problem finding the user.");
         if (!user) return res.status(404).send("No user found.");
 
-        Order.find({$or: [{courier: req.userId}, {sender: req.userId}]}, (err2, orders) => {
+        Order.find({$or: [{receiver: req.userId}, {sender: req.userId}]}, (err2, orders) => {
             if (err2) return res.status(400).send("There was a problem finding orders.");
             return res.status(200).send(orders);
         });
