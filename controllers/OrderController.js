@@ -5,6 +5,12 @@ const Courier = require('../entities/Courier');
 const Order = require('../entities/Order');
 const AuthMiddleware = require('../middleware/AuthMiddleware');
 
+function getRandomInt(min, max) {
+    min = Math.ceil(min);
+    max = Math.floor(max);
+    return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+
 router.post('/add', AuthMiddleware, (req, res) => {
     User.findById(req.userId, function (err1, user) {
         if (err1) return res.status(500).send("There was a problem finding the user.");
@@ -19,7 +25,9 @@ router.post('/add', AuthMiddleware, (req, res) => {
                 receiver: req.body.receiver,
                 receiverAddress: req.body.receiverAddress,
                 senderAddress: req.body.senderAddress,
-                info: req.body.info
+                info: {
+                    price: getRandomInt(30, 150)
+                }
             }, (err3, order) => {
                 if (err3) return res.status(500).send("There was a problem with creating order" + err3);
 
